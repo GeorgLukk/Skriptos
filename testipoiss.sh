@@ -10,5 +10,7 @@ echo "Mina olen Georg"
 echo "See on minu esimene skriptipoiss"
 echo
 echo "Täna on 09.01.24"
+
 echo "Täna on $kp" 
+echo "GG"
 date +%D_%T
