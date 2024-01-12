@@ -1,0 +1,2 @@
+#kommentaar
+echo "tere"
