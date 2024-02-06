@@ -28,5 +28,4 @@ case $pr in
 		tar -czpf $kuhu3/$fn $mis &> /dev/null
         ;;
 esac
-#varundamine tar'i abil
-#tar -czpf $kuhu/$fn $mis &> /dev/null
+#crontab=0 4 * * * /home/student/skriptid/yl6.sh
