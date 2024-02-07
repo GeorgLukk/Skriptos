@@ -8,7 +8,7 @@ num=$(( $RANDOM %20 + 1 ))
 num=$(( $num + 1 ))
 #loob muutuja mida sa hiljem readiga muudad ning arvus mis loeb mitu korda sa proovisid
 guess=0
-arvud=0
+mitu=1
 while [ $guess -ne $num ]
 do
 #küsib arvu 1 ja 20 vahel
@@ -24,8 +24,8 @@ echo "pakutud number on suurem kui $guess. Paku uuesti: "
 #kui on õige number siis õnnitleb ning väljastab mitme korraga ära arvasid
 else
 echo "Tubli see oligi $num"
-echo "Arvasid ära $arvud katsega"
+echo "Arvasid ära $mitu katsega"
 fi
 #lisab katse kordadele 1 juurde
-(( ++arvud ))
+(( ++mitu ))
 done
