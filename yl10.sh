@@ -15,7 +15,7 @@ do
 	ping -c 1 $serverid &> /dev/null
 #if lause mis kontrollib eelnevalt saadu ping käsust kas serverid on võrgus või mitte
 if [ $? -ne 0 ]
-#kui on siis väljastab need
+#kui ei ole võrgus siis see väljastab et ei ole ning edastab selle serverid.txt faili
 then
 	echo "Server aadressiga $serverid pole võrgus kättesaadav"
 	echo "Server $serverid polnud kättesaadaval $kp" >> /home/student/skriptid/serverid.txt
