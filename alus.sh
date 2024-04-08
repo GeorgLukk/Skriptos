@@ -1,4 +1,4 @@
 #!/bin/bash
-#Ülesanne
+#Ülesanne 
 #Autor:Georg lukk
-#Muudetud:00.00.24
+#Muudetud:..24
